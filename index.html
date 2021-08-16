@@ -18,16 +18,11 @@
     <link rel="shortcut icon" href="img/favicon.png" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
@@ -35,12 +30,25 @@
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
 
-    
+
     <link rel="stylesheet" type="text/css" href="rs-plugin/css/addons/revolution.addon.particles.css">
     <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="rs-plugin/css/layers.css">
     <link rel="stylesheet" type="text/css" href="rs-plugin/css/navigation.css">
-
+    <style>
+        .clients .item {
+            background: white !important;
+            color: black !important;
+        }
+        
+        .imago {
+            background-position: center;
+        }
+        
+        .clients .brands .img img {
+            max-width: 90%;
+        }
+    </style>
 </head>
 
 <body>
@@ -82,72 +90,36 @@
 
             <!-- Logo -->
             <a class="logo" href="index.html">
-                <img src="img/trinitylogo.png" alt="logo">
+                <img src="img/Trinity_Logo.png" alt="logo">
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="icon-bar"><i class="fas fa-bars"></i></span>
             </button>
 
             <!-- navbar links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    
+
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="facebook.html">Facebook Gaming</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="creators.html">Creators</a>
                     </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Home</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="index.html">Main Home</a>
-                            <a class="dropdown-item" href="index2.html">Creative Studio</a>
-                            <a class="dropdown-item" href="index3.html">Business Startup</a>
-                            <a class="dropdown-item" href="index4.html">One Page</a>
-                            <a class="dropdown-item" href="index5.html">Freelancer</a>
-                        </div>
-                    </li> -->
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Showcases</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="showcase.html">Full Screen</a>
-                            <a class="dropdown-item" href="showcase2.html">Creative Carousel</a>
-                            <a class="dropdown-item" href="showcase3.html">Radius Carousel</a>
-                            <a class="dropdown-item" href="showcase4.html">Columns Carousel</a>
-                        </div>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Portfolio</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="works.html">Mouse Info</a>
-                            <a class="dropdown-item" href="works2.html">Masonry 3 Columns</a>
-                            <a class="dropdown-item" href="works3.html">Masonry 2 Columns</a>
-                            <a class="dropdown-item" href="works4.html">Pinterest List</a>
-                        </div>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
                     </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-                <!-- <div class="search">
-                    <span class="icon pe-7s-search cursor-pointer"></span>
-                    <div class="search-form text-center custom-font">
-                        <form>
-                            <input type="text" name="search" placeholder="Search">
-                        </form>
-                        <span class="close pe-7s-close cursor-pointer"></span>
-                    </div>
-                </div> -->
             </div>
         </div>
     </nav>
@@ -167,7 +139,8 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="caption dig">
-                                        <h1 data-splitting>Unique <div class="tline">brand Stories</div>
+                                        <h1 data-splitting>Unique
+                                            <div class="tline">brand Stories</div>
                                         </h1>
                                         <a href="#0" class="simple-btn mt-50">
                                             <span>Discover Works</span>
@@ -184,7 +157,8 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="caption dig">
-                                        <h1 data-splitting>Digital <div class="tline">Design Awards</div>
+                                        <h1 data-splitting>Digital
+                                            <div class="tline">Design Awards</div>
                                         </h1>
                                         <a href="#0" class="simple-btn mt-50">
                                             <span>Discover Works</span>
@@ -201,7 +175,8 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="caption dig">
-                                        <h1 data-splitting>Original <div class="tline">Solutions</div>
+                                        <h1 data-splitting>Original
+                                            <div class="tline">Solutions</div>
                                         </h1>
                                         <a href="#0" class="simple-btn mt-50">
                                             <span>Discover Works</span>
@@ -236,11 +211,10 @@
 
     <!-- ==================== End Slider ==================== -->
 
-    
+
     <!-- ==================== Start Slider ==================== -->
 
-    <header class="freelancer sub-bg valign bg-img parallaxie" data-background="img/slid/bf2.jpg"
-        data-overlay-dark="4" style="display: none;">
+    <header class="freelancer sub-bg valign bg-img parallaxie" data-background="img/slid/bf2.jpg" data-overlay-dark="4" style="display: none;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -273,49 +247,46 @@
 
     <!-- ==================== End Slider ==================== -->
 
-    <section id="slider" class="slider-element revslider-wrap include-header">
+    <section class="slider-element revslider-wrap include-header">
 
         <div class="rev_slider_wrapper">
             <!-- START REVOLUTION SLIDER 5.3.1.6 fullscreen mode -->
             <div id="rev_slider_4_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.1.4">
                 <ul>
                     <!-- SLIDE  -->
-                    <li class="dark" data-index="rs-8" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide"
-                        data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li id="particles-js" class="dark" data-index="rs-8" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off"
+                        data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="rs-plugin/demos/assets/images/transparent.png" style='background-color:#1d2931' alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                        <!-- <img id="particles-js" src="rs-plugin/demos/assets/images/transparent.png" style='background-color:#1d2931' alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina> -->
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
-                        <div class="tp-caption   tp-resizeme" id="slide-8-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full-proportional" data-height="full-proportional"
+                        <!-- <div class="tp-caption   tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']" data-width="full-proportional" data-height="full-proportional"
                             data-whitespace="nowrap" data-type="image" data-basealign="slide" data-responsive_offset="on" data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;"><img src="img/bg.jpg" alt="Image" data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']" data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']" data-no-retina>                                </div>
+                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;"><img alt="Image" data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']" data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']" data-no-retina> </div> -->
 
-                        <!-- LAYER NR. 2 -->
-                        <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-8-layer-8" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['517','517','597','497']" data-fontsize="['120','120','120','80']"
+                        <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-8-layer-8" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['517','517','597','497']" data-fontsize="['120','120','120','80']"
                             data-lineheight="['90','90','90','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1300,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255, 0, 255, 1.00);font-family:Poppins;letter-spacing:-10px;">
                             <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">TRINITY<br/>GAMING </div>
                         </div>
 
-                        <!-- LAYER NR. 3 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-8-layer-7" data-x="['center','center','center','center']" data-hoffset="['-3','-3','-3','-3']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['520','520','600','500']" data-fontsize="['120','120','120','80']"
                             data-lineheight="['90','90','90','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255, 255, 0, 1.00);font-family:Poppins;letter-spacing:-10px;">
                             <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">TRINITY<br/>GAMING </div>
                         </div>
 
-                        <!-- LAYER NR. 4 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-8-layer-5" data-x="['center','center','center','center']" data-hoffset="['3','3','3','3']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['520','520','600','500']" data-fontsize="['120','120','120','80']"
                             data-lineheight="['90','90','90','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1100,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(0, 255, 255, 1.00);font-family:Poppins;letter-spacing:-10px;">
                             <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%">TRINITY<br/>GAMING </div>
-                        </div>
+                        </div> -->
 
                         <!-- LAYER NR. 5 -->
-                        <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-8-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['520','520','600','500']" data-fontsize="['120','120','120','80']"
+                        <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-8-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['520','520','600','500']" data-fontsize="['120','120','120','80']"
                             data-lineheight="['90','90','90','60']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Poppins;letter-spacing:-10px;">TRINITY<br/>GAMING </div>
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; white-space: nowrap; font-size: 120px; line-height: 90px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Poppins;letter-spacing:-10px;">TRINITY<br/>GAMING </div> -->
 
                         <!-- LAYER NR. 6 -->
                         <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-1" id="slide-8-layer-15" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['40','99','200','220']" data-width="none"
@@ -338,53 +309,46 @@
                             data-responsive_offset="on" data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"sX:2;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0px;","style":"c:rgba(255, 255, 255, 1.00);"}]'
                             data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; white-space: nowrap; font-size: 25px; line-height: 25px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Oswald;letter-spacing:10px;cursor:pointer;text-decoration: none;">KNOW MORE </a> -->
 
-                        <!-- LAYER NR. 9 -->
-                        <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-8-layer-17" data-x="['center','center','center','center']" data-hoffset="['-4','-4','-4','-4']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['150','201','301','300']"
+                        <!-- <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-8-layer-17" data-x="['center','center','center','center']" data-hoffset="['-4','-4','-4','-4']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['150','201','301','300']"
                             data-width="['390','390','390','180']" data-height="2" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"delay":"bytrigger","speed":500,"frame":"0","from":"sX:0;opacity:1;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"bytrigger","speed":300,"frame":"999","to":"sX:0;opacity:1;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-lasttriggerstate="reset" style="z-index: 13;background-color:rgba(255, 255, 255, 1.00);">
                         </div>
 
-                        <!-- LAYER NR. 10 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-8-layer-9" data-x="['center','center','center','center']" data-hoffset="['-531','-531','-348','-204']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['350','350','421','431']"
                             data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":250,"speed":3000,"frame":"0","from":"y:150px;rZ:90deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 14;">
                             <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="rs-plugin/demos/assets/images/flake2.png" alt="Image" data-ww="['29px','29px','29px','29px']" data-hh="['21px','21px','21px','21px']" data-no-retina> </div>
                         </div>
 
-                        <!-- LAYER NR. 11 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-8-layer-10" data-x="['center','center','center','center']" data-hoffset="['493','493','326','194']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['399','399','408','438']"
                             data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":350,"speed":3000,"frame":"0","from":"y:150px;rZ:-90deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15;">
                             <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="rs-plugin/demos/assets/images/flake5.png" alt="Image" data-ww="['28px','28px','28px','28px']" data-hh="['27px','27px','27px','27px']" data-no-retina> </div>
                         </div>
 
-                        <!-- LAYER NR. 12 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-5" id="slide-8-layer-11" data-x="['center','center','center','center']" data-hoffset="['350','350','245','141']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['338','338','331','348']"
                             data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":450,"speed":3000,"frame":"0","from":"y:150px;rZ:45deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 16;">
                             <div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px" data-origin="50% 50%"><img src="rs-plugin/demos/assets/images/flake4.png" alt="Image" data-ww="['26px','26px','26px','26px']" data-hh="['24px','24px','24px','24px']" data-no-retina> </div>
                         </div>
 
-                        <!-- LAYER NR. 13 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-5" id="slide-8-layer-12" data-x="['center','center','center','center']" data-hoffset="['-455','-455','-321','-214']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['320','320','357','381']"
                             data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":550,"speed":3000,"frame":"0","from":"y:150px;rZ:-125deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 17;">
                             <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="4px" data-origin="50% 50%"><img src="rs-plugin/demos/assets/images/flake3.png" alt="Image" data-ww="['27px','27px','27px','27px']" data-hh="['26px','26px','26px','26px']" data-no-retina> </div>
                         </div>
 
-                        <!-- LAYER NR. 14 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-4" id="slide-8-layer-13" data-x="['center','center','center','center']" data-hoffset="['-88','-88','-88','-37']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['382','382','382','399']"
                             data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":650,"speed":3000,"frame":"0","from":"y:150px;rZ:125deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 18;">
                             <div class="rs-looped rs-wave" data-speed="6" data-angle="0" data-radius="3px" data-origin="50% 50%"><img src="rs-plugin/demos/assets/images/flake1.png" alt="Image" data-ww="['13','13','13','13px']" data-hh="12px" data-no-retina> </div>
                         </div>
 
-                        <!-- LAYER NR. 15 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-4" id="slide-8-layer-14" data-x="['center','center','center','center']" data-hoffset="['-232','-232','-232','-170']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['300','300','300','366']"
                             data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":750,"speed":3000,"frame":"0","from":"y:150px;rZ:-125deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 19;">
                             <div class="rs-looped rs-wave" data-speed="7" data-angle="0" data-radius="6px" data-origin="50% 50%"><img src="rs-plugin/demos/assets/images/flake3.png" alt="Image" data-ww="['16px','16px','16px','16px']" data-hh="['15px','15px','15px','15px']" data-no-retina> </div>
-                        </div>
+                        </div> -->
 
                         <!-- LAYER NR. 16 -->
                         <!-- <a class="tp-caption   tp-resizeme" href="http://themes.semicolonweb.com/html/canvas/intro.php#section-hero" target="_blank" id="slide-8-layer-18" data-x="['center','center','center','center']" data-hoffset="['-270','-270','-230','0']" data-y="['bottom','bottom','bottom','bottom']"
@@ -422,7 +386,7 @@
 
     <!-- ==================== Start blc-sec ==================== -->
 
-    <section class="blc-sec section-padding pb-0">
+    <section class="blc-sec section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
@@ -433,20 +397,16 @@
                             <span></span>
                             <span></span>
                         </div>
-                        <h2 class="extra-title wow" data-splitting>We help to create strategies, design &
-                            development.
+                        <h2 class="extra-title wow" data-splitting>We help create strategies, design & development.
                         </h2>
                     </div>
                 </div>
                 <div class="col-lg-5 valign">
                     <div class="full-width">
-                        <p class="wow txt" data-splitting>We never underestimate any parts of each project
-                            as
-                            they're
-                            all essential to meeting the
-                            ultimate goal. you'll be engaged in with our positive and enthusiastic attitude.
+                        <p class="wow txt" data-splitting>
+                            Trinity gaming is a talent management agency which is working towards the development of gaming content creators in India.
                         </p>
-                        <a href="#0" class="simple-btn custom-font mt-20 wow" data-splitting><span>Know More</span></a>
+                        <a href="about.html" class="simple-btn custom-font mt-20 wow" data-splitting><span>Know More</span></a>
                     </div>
                 </div>
             </div>
@@ -457,7 +417,7 @@
 
     <!-- ==================== Start Services ==================== -->
 
-    <section class="services section-padding">
+    <section class="services section-padding d-none">
         <div class="container">
             <div class="row rone">
                 <div class="col-lg-3 wow fadeInUp" data-wow-delay=".4s">
@@ -495,7 +455,7 @@
                 <div class="col-lg-3 offset-lg-1 wow fadeInUp" data-wow-delay=".4s">
                     <div class="mas-item">
                         <span class="icon pe-7s-diskette"></span>
-                        <h6>Event <br>  Mangement</h6>
+                        <h6>Event <br> Mangement</h6>
                         <div class="text-right">
                             <a href="#0" class="more"><i class="fas fa-chevron-right"></i></a>
                         </div>
@@ -505,7 +465,7 @@
                 <div class="col-lg-3 offset-lg-1 wow fadeInUp" data-wow-delay=".4s">
                     <div class="mas-item">
                         <span class="icon pe-7s-help2"></span>
-                        <h6>Funding  <br></h6>
+                        <h6>Funding <br></h6>
                         <div class="text-right">
                             <a href="#0" class="more"><i class="fas fa-chevron-right"></i></a>
                         </div>
@@ -527,66 +487,6 @@
     </section>
 
     <!-- ==================== End Services ==================== -->
-
-        <!-- ==================== Start Services ==================== -->
-
-        <section class="services section-padding sub-bg">
-            <div class="container">
-                <div class="sec-head custom-font text-center">
-                    <h6 class="wow fadeIn" data-wow-delay=".5s">BRANDS SERVICES</h6>
-                    <h3 class="wow" data-splitting>Services.</h3>
-                    <span class="tbg">Services</span>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="item md-mb50 wow fadeInUp" data-wow-delay=".5s">
-                            <span class="icon pe-7s-gleam"></span>
-                            <h6>Product Awareness</h6>
-                            <p>
-                                We encourage all brands to explore influencer endorsements when launching a new product, service, or limited sale</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="item md-mb50 wow fadeInUp" data-wow-delay=".3s">
-                            <span class="icon pe-7s-phone"></span>
-                            <h6>Brand Recognition</h6>
-                            <p>
-                                Need to be more known as a brand? Well, marketing digital celebs that are already well known is the single most fastest way to succeed. We can help you reach these people.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="item wow fadeInUp" data-wow-delay=".8s">
-                            <span class="icon pe-7s-magic-wand"></span>
-                            <h6>
-                                Creative Services</h6>
-                            <p>
-                                We have a full in-house team of creative experts that can help you turn your brand into something more specially appealing.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 mt-100">
-                        <div class="item wow fadeInUp" data-wow-delay=".8s">
-                            <span class="icon pe-7s-magic-wand"></span>
-                            <h6>Family Friendly</h6>
-                            <p>
-                                We are a close-knitted company governed by a management team that cares deeply about content quality, advertiser friendliness, and next-level professionalism</p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 mt-100">
-                        <div class="item wow fadeInUp" data-wow-delay=".8s">
-                            <span class="icon pe-7s-magic-wand"></span>
-                            <h6>Hands-On Management</h6>
-                            <p>
-                                If you choose to execute an influencer marketing campaign with Talentsy, rest assured that we will aid the process from start to finish while NEVER taking any hidden fees.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ==================== End Services ==================== -->
-
 
     <!-- ==================== Start block-sec ==================== -->
 
@@ -619,8 +519,8 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="item">
                                 <span class="icon pe-7s-medal"></span>
-                                <h3 class="custom-font"><span class="count">46</span></h3>
-                                <p class="wow txt" data-splitting>Awards</p>
+                                <h3 class="custom-font"><span class="count">120 M</span>+</h3>
+                                <p class="wow txt" data-splitting>Monthly Views</p>
                             </div>
                         </div>
                     </div>
@@ -671,29 +571,59 @@
                 <div class="col-lg-12 no-padding">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
+
                             <div class="swiper-slide">
                                 <div class="content wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="item-img bg-img wow imago" data-background="img/portfolio/curs/1.jpg">
+                                    <div class="item-img bg-img wow imago" data-background="img/works/launchparty.png">
                                     </div>
                                     <div class="cont bgbox">
-                                        <h6><a href="#0">art & illustration</a></h6>
-                                        <h4><a href="project-details.html">Innovation and Crafts.</a></h4>
+                                        <h6><a href="#0">BGMI</a></h6>
+                                        <h4><a href="project-details.html">Launch Party</a></h4>
                                         <a href="project-details2.html">
                                             <span class="icon"><i class="fas fa-plus"></i></span>
                                         </a>
-                                        <div class="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="item-img bg-img wow imago" data-background="img/works/bidwars.png">
+                                    </div>
+                                    <div class="cont bgbox">
+                                        <h6><a href="#0">AORUS</a></h6>
+                                        <h4><a href="https://in.aorus.com/event_html/1697/">BIDWARS</a></h4>
+                                        <a href="project-details2.html">
+                                            <span class="icon"><i class="fas fa-plus"></i></span>
+                                        </a>
+                                        <!-- <div class="">
                                             Hello World
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="content wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="item-img bg-img wow imago" data-background="img/portfolio/curs/2.jpg">
+                                    <div class="item-img bg-img wow imago" data-background="img/works/streamershowdown.png">
                                     </div>
                                     <div class="cont bgbox">
-                                        <h6><a href="#0">art & illustration</a></h6>
-                                        <h4><a href="project-details.html">Inspiring new space.</a></h4>
+                                        <h6>
+                                            <a href="#0">PUBG</a>
+                                        </h6>
+                                        <h4><a href="project-details.html">Streamer Showdown</a></h4>
+                                        <a href="project-details2.html">
+                                            <span class="icon"><i class="fas fa-plus"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="content wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="item-img bg-img wow imago" data-background="img/works/valorant.png">
+                                    </div>
+                                    <div class="cont bgbox">
+                                        <h6><a href="#0">Valorant</a></h6>
+                                        <h4><a href="https://gamerconnect.in/event-info/gamerconnect-valorant-streamer-invitational-phase-1">Streamers Invitational</a></h4>
                                         <a href="project-details2.html">
                                             <span class="icon"><i class="fas fa-plus"></i></span>
                                         </a>
@@ -702,37 +632,11 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="content wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="item-img bg-img wow imago" data-background="img/portfolio/curs/3.jpg">
+                                    <div class="item-img bg-img wow imago" data-background="img/works/flipkart.png">
                                     </div>
                                     <div class="cont bgbox">
-                                        <h6><a href="#0">art & illustration</a></h6>
-                                        <h4><a href="project-details.html">Natural plus modern.</a></h4>
-                                        <a href="project-details2.html">
-                                            <span class="icon"><i class="fas fa-plus"></i></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="content wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="item-img bg-img wow imago" data-background="img/portfolio/curs/4.jpg">
-                                    </div>
-                                    <div class="cont bgbox">
-                                        <h6><a href="#0">art & illustration</a></h6>
-                                        <h4><a href="project-details.html">Innovation and Crafts.</a></h4>
-                                        <a href="project-details2.html">
-                                            <span class="icon"><i class="fas fa-plus"></i></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="content wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="item-img bg-img wow imago" data-background="img/portfolio/curs/5.jpg">
-                                    </div>
-                                    <div class="cont bgbox">
-                                        <h6><a href="#0">art & illustration</a></h6>
-                                        <h4><a href="project-details.html">Inspiring new space.</a></h4>
+                                        <h6><a href="#0">Flipkart</a></h6>
+                                        <h4><a href="project-details.html">Pro Gaming Showdown</a></h4>
                                         <a href="project-details2.html">
                                             <span class="icon"><i class="fas fa-plus"></i></span>
                                         </a>
@@ -759,105 +663,120 @@
 
     <!-- ==================== Start clients Brands ==================== -->
 
-    <section class="clients section-padding sub-bg">
+    <section class="clients section-padding  bg-img" data-background="img/pattern.png">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 valign">
+                <div class="col-lg-12 valign">
                     <div class="sec-head custom-font mb-0">
                         <h6>Clients</h6>
-                        <h3>Our <br> Clients.</h3>
+                        <h3>Our Clients.</h3>
                     </div>
                 </div>
-                <div class="col-lg-8">
-                    <div>
-                        <div class="row bord">
-                            <div class="col-md-3 col-6 brands">
-                                <div class="item wow fadeIn" data-wow-delay=".3s">
-                                    <div class="img">
-                                        <img src="img/clients/brands/01.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-6 brands">
-                                <div class="item wow fadeIn" data-wow-delay=".6s">
-                                    <div class="img">
-                                        <img src="img/clients/brands/02.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-6 brands">
-                                <div class="item wow fadeIn" data-wow-delay=".8s">
-                                    <div class="img">
-                                        <img src="img/clients/brands/03.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-6 brands">
-                                <div class="item wow fadeIn" data-wow-delay=".3s">
-                                    <div class="img">
-                                        <img src="img/clients/brands/04.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
-                                    </div>
+                <div class="col-lg-12 pt-5 mt-5">
+                    <div class="row bord">
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/01.png" alt="">
+                                    <a href="https://www.gigabyte.com" class="link" data-splitting>www.gigabyte.com</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-3 col-6 brands">
-                                <div class="item wow fadeIn" data-wow-delay=".4s">
-                                    <div class="img">
-                                        <img src="img/clients/brands/05.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
-                                    </div>
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".6s">
+                                <div class="img">
+                                    <img src="img/clients/brands/02.png" alt="">
+                                    <a href="https://www.indiatodaygaming.com" class="link" data-splitting>www.indiatodaygaming.com</a>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-6 brands">
-                                <div class="item wow fadeIn" data-wow-delay=".7s">
-                                    <div class="img">
-                                        <img src="img/clients/brands/06.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
-                                    </div>
+                        </div>
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".8s">
+                                <div class="img">
+                                    <img src="img/clients/brands/03.png" alt="">
+                                    <a href="https://www.indiatodaygroup.com" class="link" data-splitting>www.indiatodaygroup.com</a>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-6 brands">
-                                <div class="item wow fadeIn" data-wow-delay=".5s">
-                                    <div class="img">
-                                        <img src="img/clients/brands/07.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
-                                    </div>
+                        </div>
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/04.png" alt="">
+                                    <a href="https://www.marvel.com" class="link" data-splitting>www.marvel.com</a>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-6 brands">
-                                <div class="item wow fadeIn" data-wow-delay=".3s">
-                                    <div class="img">
-                                        <img src="img/clients/brands/08.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
-                                    </div>
+                        </div>
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".4s">
+                                <div class="img">
+                                    <img src="img/clients/brands/05.png" alt="">
+                                    <a href="https://www.nw18.com/home" class="link" data-splitting>www.nw18.com</a>
                                 </div>
                             </div>
-                            
-                            <div class="col-md-3 col-6 brands">
-                                <div class="item wow fadeIn" data-wow-delay=".5s">
-                                    <div class="img">
-                                        <img src="img/clients/brands/07.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
-                                    </div>
+                        </div>
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".7s">
+                                <div class="img">
+                                    <img src="img/clients/brands/06.png" alt="">
+                                    <a href="https://www.nvidia.com/en-in/" class="link" data-splitting>www.nvidia.com</a>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-6 brands">
-                                <div class="item wow fadeIn" data-wow-delay=".3s">
-                                    <div class="img">
-                                        <img src="img/clients/brands/08.png" alt="">
-                                        <a href="#0" class="link" data-splitting>www.avo.com</a>
-                                    </div>
+                        </div>
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".5s">
+                                <div class="img">
+                                    <img src="img/clients/brands/07.png" alt="">
+                                    <a href="https://paytm.com/" class="link" data-splitting>www.paytm.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/08.png" alt="">
+                                    <a href="https://www.disney.in/" class="link" data-splitting>www.disney.in</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".5s">
+                                <div class="img">
+                                    <img src="img/clients/brands/09.png" alt="">
+                                    <a href="https://www.redbull.com/in-en/" class="link" data-splitting>www.redbull.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/10.png" alt="">
+                                    <a href="https://www.zotac.com/in/" class="link" data-splitting>www.zotac.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/11.png" alt="">
+                                    <a href="https://rog.asus.com/in/" class="link" data-splitting>rog.asus.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/12.png" alt="">
+                                    <a href="https://www.tencent.com/" class="link" data-splitting>www.tencent.com</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -868,7 +787,7 @@
 
     <!-- ==================== Start testimonials ==================== -->
 
-    <section class="testimonials section-padding mt-100">
+    <section class="testimonials section-padding">
         <div class="container position-re">
             <div class="sec-head custom-font text-center">
                 <h6 class="wow fadeIn" data-wow-delay=".5s">What Peapole Says?</h6>
@@ -879,49 +798,35 @@
                 <div class="col-lg-8">
                     <div class="slic-item">
                         <div class="item">
-                            <p>Working with Avo digital agency to support our organic and paid social media activity has
-                                extended the marketing activities we are able to achieve platform has made collaboration
-                                easy.</p>
+                            <p>
+                                Trinity gaming is a complete hands on and professional organisation when it comes to executing activities. The streamers were perfectly.aligned with the objectives we wanted to achieve. They are proactive and also suggested tweaks to the strategies. Timely
+                                feedback and closing reports provided. Abhishek, particularly overlooked the entire activity throughout this lockdown and ensured it was completed in time without any blips.
+                            </p>
                             <div class="info">
                                 <div class="cont">
                                     <div class="author">
-                                        <div class="img">
+                                        <!-- <div class="img">
                                             <img src="img/clients/1.jpg" alt="">
-                                        </div>
-                                        <h6 class="author-name custom-font">Alex Regelman</h6>
-                                        <span class="author-details">Co-founder, Colabrio</span>
+                                        </div> -->
+                                        <h6 class="author-name custom-font">Lysander Fernandes</h6>
+                                        <span class="author-details">Marketing and PR ASUS India</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <p>Avo started out managing our SEO efforts, but their scientific approach to digital
-                                marketing and the results they have achieved made it an easy decision for us to handover
-                                the management.</p>
+                            <p>
+                                We recently executed our Streamer activity with Trinity Gaming and it was a breeze, its important for an influencer activation to have crystal clear communication with brand and the Influencer and Trinity went above and beyond to make sure that activity
+                                was properly communicated to the influencer and the activity was success as result of it.
+                            </p>
                             <div class="info">
                                 <div class="cont">
                                     <div class="author">
-                                        <div class="img">
+                                        <!-- <div class="img">
                                             <img src="img/clients/1.jpg" alt="">
-                                        </div>
-                                        <h6 class="author-name custom-font">Alex Regelman</h6>
-                                        <span class="author-details">Co-founder, Colabrio</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <p>I would highly recommend Avo Digital. I worked with the team on an animation for our
-                                ‘Click & Collect’ service. This team is different from any other agency I have worked
-                                with in the past.</p>
-                            <div class="info">
-                                <div class="cont">
-                                    <div class="author">
-                                        <div class="img">
-                                            <img src="img/clients/1.jpg" alt="">
-                                        </div>
-                                        <h6 class="author-name custom-font">Alex Regelman</h6>
-                                        <span class="author-details">Co-founder, Colabrio</span>
+                                        </div> -->
+                                        <h6 class="author-name custom-font">Daniel C Mohan</h6>
+                                        <span class="author-details">Community Manager NVIDIA</span>
                                     </div>
                                 </div>
                             </div>
@@ -1077,9 +982,29 @@
                     </div>
                 </div>
             </div>
-            <div class="copyrights text-center">
-                
-                <p>Copyright ©2021 Trinity Gaming India | Developed by <a href="https://ajaystark.github.io/">Ajay</a>.</p>
+            <div class="copyrights text-center d-flex justify-content-around">
+                <div class="d-flex">
+                    <p class="my-auto">Copyright ©2021 Trinity Gaming India | Developed by <a href="https://ajaystark.github.io/">Ajay</a>.</p>
+                </div>
+                <div class="cont">
+
+                    <div class="social-icon  mt-0">
+                        <div class="social">
+                            <a href="https://www.facebook.com/Trinitygamingindia" class="icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://instagram.com/trinitygaming.in" class="icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCpIQwX4Ohu5qWTuejt4S3dg" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://discord.gg/cFwNxXKKXu" class="icon">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -1109,162 +1034,192 @@
 <!-- Footer Scripts
 ============================================= -->
 <script src="javascript/functions.js"></script>
-    <!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
-    <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
+<script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
-    <script src="rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="rs-plugin/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
 
-    <!-- ADD-ONS JS FILES -->
-    <script src="rs-plugin/js/addons/revolution.addon.particles.min.js"></script>
+<!-- ADD-ONS JS FILES -->
+<script src="rs-plugin/js/addons/revolution.addon.particles.min.js"></script>
 
-    <script>
-        var tpj = jQuery;
-        var revapi4;
-        var $ = jQuery.noConflict();
+<script>
+    var tpj = jQuery;
+    var revapi4;
+    var $ = jQuery.noConflict();
 
-        tpj(document).ready(function() {
-            if (tpj("#rev_slider_4_1").revolution == undefined) {
-                revslider_showDoubleJqueryError("#rev_slider_4_1");
-            } else {
-                revapi4 = tpj("#rev_slider_4_1").show().revolution({
-                    sliderType: "hero",
-                    jsFileLocation: "rs-plugin/js/",
-                    sliderLayout: "fullscreen",
-                    dottedOverlay: "none",
-                    delay: 9000,
-                    particles: {
-                        startSlide: "first",
-                        endSlide: "last",
-                        zIndex: "6",
-                        particles: {
-                            number: {
-                                value: 100
-                            },
-                            color: {
-                                value: "#FFF"
-                            },
-                            shape: {
-                                type: "circle",
-                                stroke: {
-                                    width: 0,
-                                    color: "#FFF",
-                                    opacity: 1
-                                },
-                                image: {
-                                    src: ""
-                                }
-                            },
-                            opacity: {
-                                value: 1,
-                                random: true,
-                                min: 0.25,
-                                anim: {
-                                    enable: false,
-                                    speed: 3,
-                                    opacity_min: 0,
-                                    sync: false
-                                }
-                            },
-                            size: {
-                                value: 3,
-                                random: true,
-                                min: 0.5,
-                                anim: {
-                                    enable: false,
-                                    speed: 40,
-                                    size_min: 1,
-                                    sync: false
-                                }
-                            },
-                            line_linked: {
-                                enable: false,
-                                distance: 150,
-                                color: "#FFF",
-                                opacity: 0.4,
-                                width: 1
-                            },
-                            move: {
-                                enable: true,
-                                speed: 1,
-                                direction: "top",
-                                random: true,
-                                min_speed: 1,
-                                straight: false,
-                                out_mode: "out"
-                            }
-                        },
-                        interactivity: {
-                            events: {
-                                onhover: {
-                                    enable: true,
-                                    mode: "bubble"
-                                },
-                                onclick: {
-                                    enable: false,
-                                    mode: "repulse"
-                                }
-                            },
-                            modes: {
-                                grab: {
-                                    distance: 400,
-                                    line_linked: {
-                                        opacity: 0.5
-                                    }
-                                },
-                                bubble: {
-                                    distance: 400,
-                                    size: 0,
-                                    opacity: 0.01
-                                },
-                                repulse: {
-                                    distance: 200
-                                }
-                            }
+    tpj(document).ready(function() {
+        if (tpj("#rev_slider_4_1").revolution == undefined) {
+            revslider_showDoubleJqueryError("#rev_slider_4_1");
+        } else {
+            revapi4 = tpj("#rev_slider_4_1").show().revolution({
+                sliderType: "hero",
+                jsFileLocation: "rs-plugin/js/",
+                sliderLayout: "fullscreen",
+                dottedOverlay: "none",
+                delay: 9000,
+                particles: {},
+                navigation: {},
+                responsiveLevels: [1170, 1024, 778, 480],
+                visibilityLevels: [1170, 1024, 778, 480],
+                gridwidth: [1170, 1024, 778, 480],
+                gridheight: [900, 768, 960, 720],
+                lazyType: "none",
+                parallax: {
+                    type: "mouse",
+                    origo: "slidercenter",
+                    speed: 400,
+                    levels: [1, 2, 3, 4, 5, 10, 15, 20, 25, 46, 47, 48, 49, 50, 51, 55],
+                },
+                shadow: 0,
+                spinner: "off",
+                autoHeight: "off",
+                fullScreenAutoWidth: "off",
+                fullScreenAlignForce: "off",
+                fullScreenOffsetContainer: "",
+                fullScreenOffset: "",
+                disableProgressBar: "on",
+                hideThumbsOnMobile: "off",
+                hideSliderAtLimit: 0,
+                hideCaptionAtLimit: 0,
+                hideAllCaptionAtLilmit: 0,
+                debugMode: false,
+                fallbacks: {
+                    simplifyAll: "off",
+                    disableFocusListener: false,
+                }
+            });
+        }
+
+        RsParticlesAddOn(revapi4);
+    }); /*ready*/
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 60,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "opacity": {
+                    "value": 0.8,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 160,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 3,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 140,
+                        "line_linked": {
+                            "opacity": 1
                         }
                     },
-                    navigation: {},
-                    responsiveLevels: [1170, 1024, 778, 480],
-                    visibilityLevels: [1170, 1024, 778, 480],
-                    gridwidth: [1170, 1024, 778, 480],
-                    gridheight: [900, 768, 960, 720],
-                    lazyType: "none",
-                    parallax: {
-                        type: "mouse",
-                        origo: "slidercenter",
-                        speed: 400,
-                        levels: [1, 2, 3, 4, 5, 10, 15, 20, 25, 46, 47, 48, 49, 50, 51, 55],
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
                     },
-                    shadow: 0,
-                    spinner: "off",
-                    autoHeight: "off",
-                    fullScreenAutoWidth: "off",
-                    fullScreenAlignForce: "off",
-                    fullScreenOffsetContainer: "",
-                    fullScreenOffset: "",
-                    disableProgressBar: "on",
-                    hideThumbsOnMobile: "off",
-                    hideSliderAtLimit: 0,
-                    hideCaptionAtLimit: 0,
-                    hideAllCaptionAtLilmit: 0,
-                    debugMode: false,
-                    fallbacks: {
-                        simplifyAll: "off",
-                        disableFocusListener: false,
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
                     }
-                });
-            }
-
-            RsParticlesAddOn(revapi4);
-        }); /*ready*/
-    </script>
+                }
+            },
+            "retina_detect": true
+        });
+    })
+</script>
 
 </html>
