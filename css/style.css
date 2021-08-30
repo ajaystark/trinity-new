@@ -1838,7 +1838,7 @@ body {
 }
 
 .navbar .logo {
-    width: 100px;
+    width: 100px !important;
 }
 
 .nav-scroll {
