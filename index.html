@@ -48,24 +48,59 @@
         .clients .brands .img img {
             max-width: 90%;
         }
-    .block-sec .showreel .video-box:after, .block-sec .showreel .video-box:before{
-        display: none !important;
-    }
-    html,head,body{
-        height: 100%;
-        width: 100%;
-    }
+        
+        .block-sec .showreel .video-box:after,
+        .block-sec .showreel .video-box:before {
+            display: none !important;
+        }
+        
+        html,
+        head,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+        .fg-link:hover{
+  font-size: 72px;
+  background: linear-gradient(to right, #a7394b, #7314c7,#2b5ac0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
     </style>
 </head>
-
+<script>
+    window.localStorage.setItem('preloader',1);
+    // document.body.scroll="no";
+    // document.body.style.overflow="hidden";
+</script>
 <body>
 
 
 
     <!-- ==================== Start Loading ==================== -->
+    <div  id="plr1" class="d-md-none d-block"  style="background-image: url('img/portrait.gif');  height: 100%; width: 100%;
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:10000;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;">
 
-    <div id="preloader">
     </div>
+
+    <div  id="plr2" class="d-md-block d-none" style="background-image: url('img/landscape.gif');  height: 100%; width: 100%;
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:10000;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;">
+
+    </div>
+    <!-- <div id="preloader">
+    </div> -->
 
     <!-- ==================== End Loading ==================== -->
 
@@ -112,17 +147,17 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="facebook.html">Facebook Gaming</a>
+                        <a class="nav-link fg-link" href="facebook.html" >Facebook Gaming</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="creators.html">Creators</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="team.html">Team</a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
@@ -198,10 +233,10 @@
 
             <!-- slider setting -->
             <div class="setone setwo">
-                <div class="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
+                <div class="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer" style="opacity: 1 !important;">
                     <i class="fas fa-chevron-right"></i>
                 </div>
-                <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer">
+                <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer" style="opacity: 1 !important;">
                     <i class="fas fa-chevron-left"></i>
                 </div>
             </div>
@@ -404,14 +439,14 @@
                             <span></span>
                             <span></span>
                         </div>
-                        <h2 class="extra-title wow" data-splitting>We help create strategies, design & development.
+                        <h2 class="extra-title wow" data-splitting >Striving towards making India, <br> A leader in Gaming and Esports.
                         </h2>
                     </div>
                 </div>
                 <div class="col-lg-5 valign">
                     <div class="full-width">
-                        <p class="wow txt" data-splitting>
-                            Trinity gaming is a talent management agency which is working towards the development of gaming content creators in India.
+                        <p class="wow fadeInUp txt" >
+                            Trinity gaming is a talent management agency which is working towards making Gaming a viable career option for upcoming Talent. We bridge the gap between Talent & Brand and help creators monetize their content. From content health to GFX/VFX we've got you covered.
                         </p>
                         <a target="_blank" href="about.html" class="simple-btn custom-font mt-20 wow" data-splitting><span>Know More</span></a>
                     </div>
@@ -505,35 +540,35 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="item no-bord">
                                 <span class="icon pe-7s-smile"></span>
-                                <h3 class="custom-font"><span class="count">700</span>+</h3>
-                                <p class="wow txt" data-splitting>Creators</p>
+                                <h3 class="custom-font"style="font-weight: 400;font-size: 3rem;"><span class="count">700</span>+</h3>
+                                <p class="wow txt"style="font-weight: 400;font-size: 1rem;" data-splitting>Creators</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="item">
                                 <span class="icon pe-7s-portfolio"></span>
-                                <h3 class="custom-font"><span class="count">50</span>+</h3>
-                                <p class="wow txt" data-splitting>Brands</p>
+                                <h3 class="custom-font"style="font-weight: 400;font-size: 3rem;"><span class="count">50</span>+</h3>
+                                <p class="wow txt"style="font-weight: 400;font-size: 1rem;" data-splitting>Brands</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="item">
                                 <span class="icon pe-7s-cloud-download"></span>
-                                <h3 class="custom-font"><span class="count">254</span></h3>
-                                <p class="wow txt" data-splitting>Events</p>
+                                <h3 class="custom-font"style="font-weight: 400;font-size: 3rem;"><span class="count">250</span>+</h3>
+                                <p class="wow txt"style="font-weight: 400;font-size: 1rem;" data-splitting>Events</p>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="item">
                                 <span class="icon pe-7s-medal"></span>
-                                <h3 class="custom-font"><span class="count">120 M</span>+</h3>
-                                <p class="wow txt" data-splitting>Monthly Views</p>
+                                <h3 class="custom-font"style="font-weight: 400;font-size: 3rem;"><span class="count">120 M</span>+</h3>
+                                <p class="wow txt" data-splitting style="font-weight: 400;font-size: 1rem;">Monthly Views</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="showreel">
+            <div class="showreel" id="video">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-9">
@@ -542,7 +577,7 @@
                                     <h3 class="wow" data-splitting>Showreel</h3>
                                 </div>
                                 <div class="w-100">
-                                    <video src="video.m4v" class="w-100" controls autoplay  muted></video>
+                                    <video src="video.m4v" class="w-100" controls autoplay muted loop></video>
                                 </div>
                                 <!-- <div class="wow imago">
                                     <div class="img">
@@ -573,9 +608,9 @@
     <section class="work-carousel section-padding caroul sub-bg position-re">
         <div class="container-fluid mt-100">
             <div class="sec-head custom-font text-center">
-                <h6 class="wow fadeIn" data-wow-delay=".5s">Portfolio</h6>
+                <h6 class="wow fadeIn" data-wow-delay=".5s">Our Work</h6>
                 <h3 class="wow" data-splitting>Our Work</h3>
-                <span class="tbg">Portfolio</span>
+                <span class="tbg">Our Work</span>
             </div>
             <div class="row">
                 <div class="col-lg-12 no-padding">
@@ -679,7 +714,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
 
                         <!-- slider setting -->
@@ -697,10 +732,269 @@
 
     <!-- ==================== End Works ==================== -->
 
+    <section class="work-carousel section-padding caroul sub-bg position-re d-md-none d-block">
+        <div class="container-fluid mt-100">
+            <div class="sec-head custom-font text-center">
+                <h6 class="wow fadeIn" data-wow-delay=".5s">Our Clients</h6>
+                <h3 class="wow" data-splitting>Our Clients</h3>
+                <span class="tbg">Our Clients</span>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 no-padding">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide clients">
+                                <div class="row bord">
+
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/01.png" alt="">
+                                                <a target="_blank" href="https://www.gigabyte.com" class="link" data-splitting>www.gigabyte.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".6s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/02.png" alt="">
+                                                <a target="_blank" href="https://www.indiatodaygaming.com" class="link" data-splitting>www.indiatodaygaming.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".8s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/03.png" alt="">
+                                                <a target="_blank" href="https://www.indiatodaygroup.com" class="link" data-splitting>www.indiatodaygroup.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/04.png" alt="">
+                                                <a target="_blank" href="https://www.marvel.com" class="link" data-splitting>www.marvel.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide clients">
+                               <div class="row bord">
+                                <div class="col-md-2 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".4s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/05.png" alt="">
+                                            <a target="_blank" href="https://www.nw18.com/home" class="link" data-splitting>www.nw18.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".7s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/06.png" alt="">
+                                            <a target="_blank" href="https://www.nvidia.com/en-in/" class="link" data-splitting>www.nvidia.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".5s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/07.png" alt="">
+                                            <a target="_blank" href="https://paytm.com/" class="link" data-splitting>www.paytm.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="img/clients/brands/08.png" alt="">
+                                            <a target="_blank" href="https://www.disney.in/" class="link" data-splitting>www.disney.in</a>
+                                        </div>
+                                    </div>
+                                </div>
+                               </div>
+                            </div>
+                            <div class="swiper-slide clients">
+                                <div class="row bord">
+
+                                        <div class="col-md-2 col-6 brands">
+                                            <div class="item wow fadeIn" data-wow-delay=".5s">
+                                                <div class="img">
+                                                    <img src="img/clients/brands/09.png" alt="">
+                                                    <a target="_blank" href="https://www.redbull.com/in-en/" class="link" data-splitting>www.redbull.com</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-6 brands">
+                                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                                <div class="img">
+                                                    <img src="img/clients/brands/10.png" alt="">
+                                                    <a target="_blank" href="https://www.zotac.com/in/" class="link" data-splitting>www.zotac.com</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="col-md-2 col-6 brands">
+                                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                                <div class="img">
+                                                    <img src="img/clients/brands/11.png" alt="">
+                                                    <a target="_blank" href="https://rog.asus.com/in/" class="link" data-splitting>rog.asus.com</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="col-md-2 col-6 brands">
+                                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                                <div class="img">
+                                                    <img src="img/clients/brands/12.png" alt="">
+                                                    <a target="_blank" href="https://www.tencent.com/" class="link" data-splitting>www.tencent.com</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide clients">
+                                <div class="row bord">
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/13.png" alt="">
+                                                <a target="_blank" href="https://gillette.com/" class="link" data-splitting>gillette.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/14.png" alt="">
+                                                <a target="_blank" href="https://www.krafton.com/en/" class="link" data-splitting>www.krafton.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/15.png" alt="">
+                                                <a target="_blank" href="https://loco.gg/" class="link" data-splitting>loco.gg</a>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/16.png" alt="">
+                                                <a target="_blank" href="https://www.mpl.live/" class="link" data-splitting>www.mpl.live</a>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                </div>
+                            </div>
+                            <div class="swiper-slide clients">
+                                <div class="row bord">
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/17.png" alt="">
+                                                <a target="_blank" href="https://www.asus.com/in/" class="link" data-splitting>www.asus.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+            
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/19.png" alt="">
+                                                <a target="_blank" href="https://www.youtube.com/" class="link" data-splitting>www.youtube.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/18.jpeg" alt="" style="max-width: 50%;">
+                                                <a target="_blank" href="https://www.facebook.com/gaming/feed/" class="link" data-splitting>www.facebook.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/20.jpg" alt="" style="max-width: 50%;">
+                                                <a target="_blank" href="https://www.realme.com/in/" class="link" data-splitting>www.realme.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide clients">
+                                <div class="row bord">
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/21.png" alt="">
+                                                <a target="_blank" href="https://espl.co/" class="link" data-splitting>espl.co</a>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/22.jpeg" alt="">
+                                                <a target="_blank" href="https://unacademy.com/" class="link" data-splitting>www.unacademy.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/23.jpg" alt="">
+                                                <a target="_blank" href="https://www.riotgames.com/en" class="link" data-splitting>www.riotgames.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-md-2 col-6 brands">
+                                        <div class="item wow fadeIn" data-wow-delay=".3s">
+                                            <div class="img">
+                                                <img src="img/clients/brands/24.png" alt="">
+                                                <a target="_blank" href="https://www.truke.in/" class="link" data-splitting>www.truke.in</a>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- slider setting -->
+                        <div class="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
+                            <i class="ion-ios-arrow-right"></i>
+                        </div>
+                        <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer">
+                            <i class="ion-ios-arrow-left"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- ==================== Start clients Brands ==================== -->
 
-    <section class="clients section-padding  bg-img" data-background="img/pattern.png">
+    <section class="clients section-padding  bg-img d-md-block d-none" data-background="img/pattern.png">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 valign">
@@ -777,6 +1071,7 @@
                         </div>
 
                         <div class="col-md-2 col-6 brands">
+                            
                             <div class="item wow fadeIn" data-wow-delay=".5s">
                                 <div class="img">
                                     <img src="img/clients/brands/09.png" alt="">
@@ -810,7 +1105,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-2 col-6 brands">
                             <div class="item wow fadeIn" data-wow-delay=".3s">
                                 <div class="img">
@@ -819,7 +1114,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-2 col-6 brands">
                             <div class="item wow fadeIn" data-wow-delay=".3s">
                                 <div class="img">
@@ -828,7 +1123,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-2 col-6 brands">
                             <div class="item wow fadeIn" data-wow-delay=".3s">
                                 <div class="img">
@@ -837,7 +1132,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-2 col-6 brands">
                             <div class="item wow fadeIn" data-wow-delay=".3s">
                                 <div class="img">
@@ -846,12 +1141,76 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-2 col-6 brands">
                             <div class="item wow fadeIn" data-wow-delay=".3s">
                                 <div class="img">
                                     <img src="img/clients/brands/17.png" alt="">
                                     <a target="_blank" href="https://www.asus.com/in/" class="link" data-splitting>www.asus.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/19.png" alt="">
+                                    <a target="_blank" href="https://www.youtube.com/" class="link" data-splitting>www.youtube.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/18.jpeg" alt="" style="max-width: 50%;">
+                                    <a target="_blank" href="https://www.facebook.com/gaming/feed/" class="link" data-splitting>www.facebook.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/20.jpg" alt="" style="max-width: 50%;">
+                                    <a target="_blank" href="https://www.realme.com/in/" class="link" data-splitting>www.realme.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/21.png" alt="">
+                                    <a target="_blank" href="https://espl.co/" class="link" data-splitting>espl.co</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/22.jpeg" alt="">
+                                    <a target="_blank" href="https://unacademy.com/" class="link" data-splitting>www.unacademy.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/23.jpg" alt="">
+                                    <a target="_blank" href="https://www.riotgames.com/en" class="link" data-splitting>www.riotgames.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-6 brands">
+                            <div class="item wow fadeIn" data-wow-delay=".3s">
+                                <div class="img">
+                                    <img src="img/clients/brands/24.png" alt="">
+                                    <a target="_blank" href="https://www.truke.in/" class="link" data-splitting>www.truke.in</a>
                                 </div>
                             </div>
                         </div>
@@ -873,7 +1232,7 @@
                     <div class="col-lg-6">
                         <div class="vid-area">
                             <div class="vid-icon">
-                                <a class="vid" href="javascript:void(0);">
+                                <a class="vid" href="#video">
                                     <div class="vid-butn">
                                         <span class="icon">
                                             <i class="fas fa-play"></i>
@@ -883,20 +1242,20 @@
                             </div>
 
                             <div class="cont">
-                                <h3 class="wow" data-splitting>So that's us. There's no other way to put it.</h3>
+                                <h3 class="wow" data-splitting>THIS IS<br> WHY  WE DO <br> WHAT WE DO.</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <div class="testim-box">
                             <div class="head-box">
-                                <h6 class="wow fadeIn" data-wow-delay=".5s">Our Happy Clients</h6>
+                                <h6 class="wow fadeIn" data-wow-delay=".5s" style="font-weight: 800 !important;">Our Happy Clients</h6>
                                 <h4 class="wow fadeInLeft" data-wow-delay=".5s">What Client's Say?</h4>
                             </div>
                             <div class="slic-item wow fadeInUp" data-wow-delay=".5s">
                                 <div class="item">
-                                    <p>    Trinity gaming is a complete hands on and professional organisation when it comes to executing activities. The streamers were perfectly.aligned with the objectives we wanted to achieve. They are proactive and also suggested tweaks to the strategies. Timely
-                                        feedback and closing reports provided. Abhishek, particularly overlooked the entire activity throughout this lockdown and ensured it was completed in time without any blips.
+                                    <p style="font-weight: 500 !important;text-align: justify;"> Trinity gaming is a complete hands on and professional organisation when it comes to executing activities. The streamers were perfectly.aligned with the objectives we wanted to achieve. They are proactive and also suggested
+                                        tweaks to the strategies. Timely feedback and closing reports provided. Abhishek, particularly overlooked the entire activity throughout this lockdown and ensured it was completed in time without any blips.
                                     </p>
                                     <div class="info">
                                         <div class="img d-none">
@@ -906,14 +1265,14 @@
                                         </div>
                                         <div class="cont">
                                             <div class="author">
-                                                <h6 class="author-name custom-font">Lysander Fernandes</h6>
-                                                <span class="author-details">Marketing and PR ASUS India</span>
+                                                <h6 class="author-name custom-font" style="font-weight: 800 !important;">Lysander Fernandes</h6>
+                                                <span class="author-details" style="font-weight: 800 !important;">Marketing and PR ASUS India</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <p>
+                                    <p style="font-weight: 500 !important;text-align: justify;">
                                         We recently executed our Streamer activity with Trinity Gaming and it was a breeze, its important for an influencer activation to have crystal clear communication with brand and the Influencer and Trinity went above and beyond to make sure that activity
                                         was properly communicated to the influencer and the activity was success as result of it.</p>
                                     <div class="info">
@@ -924,8 +1283,8 @@
                                         </div>
                                         <div class="cont">
                                             <div class="author">
-                                                <h6 class="author-name custom-font">Daniel C Mohan</h6>
-                                                <span class="author-details">Community Manager NVIDIA</span>
+                                                <h6 class="author-name custom-font" style="font-weight: 800 !important;">Daniel C Mohan</h6>
+                                                <span class="author-details" style="font-weight: 800 !important;">Community Manager NVIDIA</span>
                                             </div>
                                         </div>
                                     </div>
@@ -1200,7 +1559,6 @@
 
 <script>
     $(document).ready(function() {
-
         particlesJS("particles-js", {
             "particles": {
                 "number": {
@@ -1312,6 +1670,26 @@
             "retina_detect": true
         });
     })
+    setTimeout(() => {
+        
+        $('#plr1').remove();
+        $('#plr2').remove();
+        // $('#plr1').css('opacity','0');
+        // $('#plr2').css('opacity','0');
+        // off();
+    }, 4500);
+
+    function on() {
+        document.getElementById("overlay").style.display = "block";
+        // document.body.scroll="no";
+        document.body.style.overflow="hidden";
+    }
+
+    function off() {
+        document.getElementById("overlay").style.display = "none";
+        // document.body.scroll="yes";
+        document.body.style.overflow="visible";
+    }
 </script>
 
 </html>

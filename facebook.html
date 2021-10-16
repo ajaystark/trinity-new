@@ -33,30 +33,83 @@
 </head>
 
 <style>
-    .fblogo1{
+    .fblogo1 {
         height: 100px;
         width: auto;
     }
     
-    .fblogo1{
+    .fblogo1 {
         height: 75px;
         width: auto;
     }
     
     @media screen and (max-width: 991px) {
-        .fblogo1{
+        .fblogo1 {
             height: auto;
             width: 100%;
         }
-        .fblogo2{
+        .fblogo2 {
             height: auto;
             width: 100%;
         }
     }
+    .cont a{
+       color: black; 
+       font-weight: 800;
+    }
+    
+    .sec-head{
+            margin: 0px !important;
+        }
+        .blur-bg{
+            background: rgba(255,255,255,0.5);
+            border-radius: 1rem;
+        }
+        p{
+            font-size: 17.5px;
+        }
+
+        .blur-bg-black{
+            background: rgba(0,0,0,0.5);
+            border-radius: 1rem;
+        }
+        /* .services .mas-item:after{
+            
+            background: rgba(0,0,0,0.5);
+        } */
+
+        .services .mas-item .icon {
+            color: white;
+        }
+        .number-sec .item:after {
+            background: none !important;
+        }
 </style>
-<body>
 
+<script>
+    window.localStorage.setItem('preloader',0);
+</script>
+<body style="
+  background: -webkit-linear-gradient( right, #a7394b, #7314c7,#2b5ac0);
+  background: -moz-linear-gradient( right, #a7394b, #7314c7,#2b5ac0);
+  background: -ms-linear-gradient( right, #a7394b, #7314c7,#2b5ac0);
+  background: -o-linear-gradient( right, #a7394b, #7314c7,#2b5ac0);
+  background: linear-gradient( right, #a7394b, #7314c7,#2b5ac0);
+  /* background: url('img/gradient.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+">
 
+    <!-- <div  id="plr" style="background-image: url('img/logo.gif');  height: 100%; width: 100%;
+    background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index:10000;
+   overflow: hidden;
+   position: fixed;">
+
+   </div> -->
     <!-- ==================== Start Loading ==================== -->
 
     <div id="preloader">
@@ -115,11 +168,11 @@
                         <a class="nav-link" href="creators.html">Creators</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="team.html">Team</a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
@@ -131,8 +184,8 @@
 
     <!-- ==================== Start Slider ==================== -->
 
-    <header class="pages-header bg-img valign parallaxie" data-background="img/facebook-gaming/fb-background.jpeg" data-overlay-dark="5">
-        <div class="container">
+    <header class="pages-header bg-img valign parallaxie  my-md-5 pt-md-5">
+        <div class="container px-3 py-md-3 ">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="cont text-center">
@@ -142,9 +195,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </header>
+    <div class="px-3">
 
+        <div class=" container d-flex flex-column justify-content-center blur-bg-black p-3 p-md-5">
+            <img src="img/facebook-gaming/facebook-gaming.png" alt="Facebook Gaming" data-wow-delay=".1s" width='100%'>
+    
+        </div>
+    </div>
+    <!-- <hr style="border-bottom: 2px solid white;"> -->
     <!-- ==================== End Slider ==================== -->
 
 
@@ -154,12 +214,9 @@
     <section class="intro-section section-padding">
         <div class="mx-md-5 mx-3">
             <div class="row d-flex justify-content-center m-0">
-                <div class="col-md-6 col-12 d-flex flex-column justify-content-center">
-                    <img src="img/facebook-gaming/facebook-gaming.png" alt="Facebook Gaming"  data-wow-delay=".1s" width='100%'>
-
-                </div>
+               
                 <div class="col-12 text-center my-5">
-                    <h2>Why Facebook Gaming?</h2>
+                    <h2 data-splitting class="wow text">Why Facebook Gaming?</h2>
                 </div>
                 <br><br>
                 <div class="row m-0">
@@ -170,9 +227,9 @@
                                 <h4>What Is Facebook Gaming?</h4>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 p-3 blur-bg">
                             <div class="text">
-                                <p class="wow txt" data-splitting>
+                                <p class="wow fadeInUp txt"  style="color: black; font-weight: 800; text-align: justify;"  >
                                     Facebook Gaming is where gamers of all backgrounds come  together to share their passions, whether it’s watching videos,  playing the latest games with friends, or sharing memes in  groups. These interactions build a sense of community in a fun,  meaningful
                                     way, and give game players a sense of belonging.
                                 </p>
@@ -184,12 +241,12 @@
 
                         <div class="col-12 text-center my-3">
                             <div class="htit sm-mb30">
-                                <h4>Join The World’s Community For Gamers</h4>
+                                <h4>Join the Community Of Gamers</h4>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 p-3 blur-bg">
                             <div class="text">
-                                <p class="wow txt" data-splitting>
+                                <p class="wow fadeInUp txt" style="color: black; font-weight: 800; text-align: justify;">
                                     Live streaming is a worldwide phenomenon and creators like you can get in on the action with one of the world’s largest gaming communities. We’re bringing people together who love to play, watch and share games in a fun environment while helping creators
                                     build their fan base and monetize their streams.
                                 </p>
@@ -205,34 +262,35 @@
 
 
 
-    <section class="intro-section section-padding">
-        <div class="container">
+    <section class="intro-section section-padding ">
+        <div class="mx-md-5 mx-3">
             <div class="row">
                 <div class="col-12 text-center my-5">
-                    <h2>Facebook Gaming Partner Program </h2>
+                    <h2 data-splitting class="wow text">Facebook Gaming Partner Program </h2>
                 </div>
                 <br><br>
                 <div class="col-md-6 col-12 text my-3 py-3">
-                    <div class="htit sm-mb30">
-                        <h4>Live</h4>
+                    <div class="htit sm-mb30 col-12 my-3 text-center">
+                        <h4>LIVE</h4>
                     </div>
-                    <p class="wow txt" data-splitting>
-                        The Facebook Gaming Live Partner Program enables streamers to represent India on a Global Level. With access to special support system, refined monetization and much more be a part of Facebook Gaming and boost your streaming career like never before.
+                    <div class="col-12 p-3 blur-bg">
 
-                    </p>
+                        <p class="wow fadeInUp txt" style="color: black; font-weight: 800; text-align: justify;">
+                            The Facebook Gaming Live Partner Program enables streamers to represent India on a Global Level. With access to special support system, refined monetization and much more be a part of Facebook Gaming and boost your streaming career like never before.
+    
+                        </p>
+                    </div>
                 </div>
                 <br><br>
 
                 <div class="col-md-6 col-12 text my-3 py-3">
-                    <div class="htit sm-mb30">
+                    <div class="htit sm-mb30 col-12 my-3 text-center">
                         <h4>VOD</h4>
                     </div>
-                    <div class="">
+                    <div class="col-12  p-3 blur-bg">
                         <div class="text">
-                            <p class="wow txt" data-splitting>
-                                &#8226; Exclusive creators must create videos specifically for their Facebook gaming channel only and those original videos should not be posted on any other platform.
-                                <br> &#8226; To be an exclusive creator, the creator should maintain at least 180 minutes of video minutes per month. Creators must post at least 5 videos a week with a minimum duration od 4 minutes, recommended video length
-                                of 7 to 10 mins.
+                            <p class="wow fadeInUp txt"  style="color: black; font-weight: 800; text-align: justify;">
+                                The Facebook Gaming VOD Partner Program enables streamers to represent India on a Global Level by uploading gaming content Exclusive to Facebook. With access to special support system, refined monetization and much more be a part of Facebook Gaming and boost your streaming career like never before.
                             </p>
                         </div>
                     </div>
@@ -248,7 +306,7 @@
 
     <!-- ==================== Start Services ==================== -->
 
-    <section class="services section-padding sub-bg">
+    <section class="services section-padding pt-0">
         <div class="container">
             <div class="sec-head custom-font text-center">
                 <h5>We’re Here To Help You Build A Global Community Of Fans Around The Games You Love And Play.</h5>
@@ -257,12 +315,17 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="mas-item md-mb50 wow fadeInUp" data-wow-delay=".2s">
-                        <span class="icon pe-7s-global"></span>
-                        <h6>Be Discovered</h6>
-                        <p>
-                            Find new fans and get your content in front of more than 2 billion people on Facebook
+                        <div class="row my-3">
+                            <div class="col-auto text-center d-flex my-auto icon pe-7s-global">
+                            </div>
+                            <div class="col-auto text-center my-auto d-flex">
+                                Be Discovered
+                            </div>
+                        </div>
+                        <p style="text-align:justify;">
+                            Find new fans and get your content in front of more than 2 billion people on Facebook.
 
-                            <br> Expand your reach with distribution across multiple channels, including Facebook.com
+                            Expand your reach with distribution across multiple channels, including Facebook.com
                         </p>
 
                         <div class="bg-color"></div>
@@ -271,11 +334,16 @@
 
                 <div class="col-lg-4 ">
                     <div class="mas-item wow fadeInUp" data-wow-delay=".2s">
-                        <span class="icon pe-7s-graph3"></span>
-                        <h6>Grow Your Community</h6>
-                        <p>
-                            Find new audiences and build a global community across Facebook.com, Instagram and Oculus
-                            <br> Interact with easy-to-use features like Groups, Pages, chat and more
+                        <div class="row my-3">
+                            <div class="col-auto text-center d-flex my-auto icon pe-7s-graph3">
+                            </div>
+                            <div class="col-auto text-center my-auto d-flex">
+                                Grow Your Community
+                            </div>
+                        </div>
+                        <p style="text-align:justify;">
+                            Find new audiences and build a global community across Facebook.com, Instagram and Oculus.
+                             Interact with easy-to-use features like Groups, Pages, chat and more
                         </p>
 
                         <div class="bg-color"></div>
@@ -283,12 +351,16 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="mas-item wow fadeInUp" data-wow-delay=".2s">
-                        <span class="icon pe-7s-cash"></span>
-                        <h6>
-                            Create A Sustainable Business</h6>
-                        <p>
-                            Monetize with tools that fit the way you game, like Stars - a way for your viewers to support you and the content you create
-                            <br> Leverage analytics, insights and direct support tools to continually enhance your streaming strategy
+                        <div class="row my-3">
+                            <div class="col-2 text-center d-flex my-auto icon pe-7s-cash">
+                            </div>
+                            <div class="col-10 text-center my-auto d-flex">
+                                Create A Sustainable Business
+                            </div>
+                        </div>
+                        <p style="text-align:justify;">
+                            Monetize with tools that fit the way you game, like Stars - a way for your viewers to support you and the content you create.
+                             Leverage analytics, insights and direct support tools to continually enhance your streaming strategy
                         </p>
 
                         <div class="bg-color"></div>
@@ -296,7 +368,7 @@
                 </div>
                 <div class="text-center d-flex justify-content-center col">
 
-                    <a target="_blank" href="https://forms.gle/Xa69nFN6vtGZ6Zw1A" class="btn-curve btn-lit" style="background-color: 	#4267B2;"><span>Apply for Facebook Gaming Partnership</span></a>
+                    <a target="_blank" href="https://forms.gle/Xa69nFN6vtGZ6Zw1A" class="btn-curve btn-lit" style="background-color: 	#002366;"><h2>Apply for Facebook Gaming Partnership</h2></a>
                 </div>
             </div>
         </div>
@@ -308,29 +380,29 @@
     <!-- ==================== Start block-sec ==================== -->
 
     <section class="block-sec">
-        <div class="background bg-img section-padding" data-background="img/pattern.png">
+        <div class="background bg-img section-padding" >
             <div class="container">
                 <div class="number-sec">
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
                             <div class="item no-bord">
-                                <span class="icon pe-7s-smile"></span>
-                                <h3 class="custom-font"><span class="count">12M</span>+</h3>
-                                <p class="wow txt" data-splitting>Watch Hours</p>
+                                <!-- <span class="icon pe-7s-smile"></span> -->
+                                <h3 class="custom-font" style="font-weight: 400;font-size: 4rem;"><span class="count">12M</span>+</h3>
+                                <p class="wow txt" data-splitting style="font-weight: 400;font-size: 2rem;">Watch Hours</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="item">
-                                <span class="icon pe-7s-portfolio"></span>
-                                <h3 class="custom-font"><span class="count">500</span>+</h3>
-                                <p class="wow txt" data-splitting>Partners</p>
+                                <!-- <span class="icon pe-7s-portfolio"></span> -->
+                                <h3 class="custom-font" style="font-weight: 400;font-size: 4rem;"><span class="count">700</span>+</h3>
+                                <p class="wow txt" data-splitting style="font-weight: 400;font-size: 2rem;">Partners</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="item">
-                                <span class="icon pe-7s-cloud-download"></span>
-                                <h3 class="custom-font"><span class="count">1B</span>+</h3>
-                                <p class="wow txt" data-splitting>Reach</p>
+                                <!-- <span class="icon pe-7s-cloud-download"></span> -->
+                                <h3 class="custom-font" style="font-weight: 400;font-size: 4rem;"><span class="count">1B</span>+</h3>
+                                <p class="wow txt" data-splitting style="font-weight: 400;font-size: 2rem;">Reach</p>
                             </div>
                         </div>
                     </div>
@@ -485,6 +557,34 @@
                 </div>
             </div>
 
+            <!-- gallery item -->
+            <div class="col-lg-3 col-md-6 items facebook  wow fadeInUp" data-wow-delay=".4s">
+                <div class="item-img">
+                    <a target="_blank" href="https://www.facebook.com/Baghaislive/" class="imago wow">
+                        <img src="img/creators/facebook/bagha.png" alt="image">
+                        <div class="item-img-overlay"></div>
+                    </a>
+                </div>
+                <div class="cont">
+                    <h6>Bagha</h6>
+                    <span><a target="_blank" href="https://www.facebook.com/Baghaislive/">Facebook</a></span>
+                </div>
+            </div>
+            
+            <!-- gallery item -->
+            <div class="col-lg-3 col-md-6 items facebook  wow fadeInUp" data-wow-delay=".4s">
+                <div class="item-img">
+                    <a target="_blank" href="https://www.facebook.com/PubGMaan007" class="imago wow">
+                        <img src="img/creators/facebook/sonam.jpg" alt="image">
+                        <div class="item-img-overlay"></div>
+                    </a>
+                </div>
+                <div class="cont">
+                    <h6>Pubg Maan</h6>
+                    <span><a target="_blank" href="https://www.facebook.com/PubGMaan007">Facebook</a></span>
+                </div>
+            </div>
+
 
         </div>
     </section>
@@ -514,40 +614,38 @@
 
 
 
-    <!-- ==================== Start Footer ==================== -->
 
-    <footer class="footer-half sub-bg  pb-0">
-        <div class="">
-            <div class="row copyrights text-center justify-content-around mx-0">
-                <div class=" col-md-6 col-12 text-center d-flex justify-content-center">
-                    <p class="my-auto">Copyright ©2021 Trinity Gaming India | Developed by <a target="_blank" href="https://ajaystark.github.io/">Ajay</a>.</p>
-                </div>
-                <div class="cont mt-md-0 mt-3 col-md-6 col-12 mb-0 ">
+        <!-- ==================== Start Footer ==================== -->
 
-                    <div class="social-icon my-auto">
-                        <div class="social">
-                            <a target="_blank" href="https://www.facebook.com/Trinitygamingindia" class="icon">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a target="_blank" href="https://instagram.com/trinitygaming.in" class="icon">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a target="_blank" href="https://www.youtube.com/channel/UCpIQwX4Ohu5qWTuejt4S3dg" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                            <a target="_blank" href="https://discord.gg/cFwNxXKKXu" class="icon">
-                                <i class="fab fa-discord"></i>
-                            </a>
+        <footer class="footer-half sub-bg  pb-0">
+            <div class="">
+                <div class="row copyrights text-center justify-content-around mx-0">
+                    <div class=" col-md-6 col-12 text-center d-flex justify-content-center">
+                        <p class="my-auto">Copyright ©2021 Trinity Gaming India | Developed by <a target="_blank" href="https://ajaystark.github.io/">Ajay</a>.</p>
+                    </div>
+                    <div class="cont mt-md-0 mt-3 col-md-6 col-12 mb-0 ">
+    
+                        <div class="social-icon my-auto">
+                            <div class="social">
+                                <a target="_blank" href="https://www.facebook.com/Trinitygamingindia" class="icon" style="color: white !important;">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a target="_blank" href="https://instagram.com/trinitygaming.in" class="icon" style="color: white !important;">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCpIQwX4Ohu5qWTuejt4S3dg" class="icon" style="color: white !important;">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a target="_blank" href="https://discord.gg/cFwNxXKKXu" class="icon" style="color: white !important;">
+                                    <i class="fab fa-discord"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <!-- ==================== End Footer ==================== -->
-
-
-
+        </footer>
+        <!-- ==================== End Footer ==================== -->
 
 
 

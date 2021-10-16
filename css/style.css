@@ -4496,10 +4496,10 @@ body {
     color: #000;
     width: 60px;
     height: 60px;
-    border-radius: 0;
+    border-radius: 0px;
     border: 0;
-    background: #fff;
-    opacity: 0;
+    background: rgba(255, 255, 255, 0.5);
+    /* opacity: 0; */
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
@@ -6532,6 +6532,11 @@ body {
     .next-prog .box .caption h1,
     .next-prog .box .copy-cap h1 {
         font-size: 40px;
+    }
+
+    
+    .section-padding {
+        padding: 50px 0 !important;
     }
 }
 
