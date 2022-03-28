@@ -61,11 +61,26 @@
             width: 100%;
         }
         .fg-link:hover{
-  font-size: 72px;
-  background: linear-gradient(to right, #a7394b, #7314c7,#2b5ac0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+            font-size: 72px;
+            background: linear-gradient(to right, #a7394b, #7314c7,#2b5ac0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .myVideo1 {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 100000;;
+        }
+        
+        .myVideo2 {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        z-index: 100000;;
+        }
     </style>
 </head>
 <script>
@@ -74,27 +89,36 @@
     // document.body.style.overflow="hidden";
 </script>
 <body>
+    <video  class="d-md-block d-none myVideo1"  autoplay muted loop id="plr1">
+        <source src="img/example.webm" type="video/mp4">
+      </video>
 
+      
+    <video  class="d-md-none d-block myVideo2" autoplay muted loop >
+        <source src="img/mobile.webm" type="video/mp4">
+      </video>
 
 
     <!-- ==================== Start Loading ==================== -->
-    <div  id="plr1" class="d-md-none d-block"  style="background-image: url('img/portrait.gif');  height: 100%; width: 100%;
+    <!-- <div  id="plr1" class="d-md-none d-block"  style="background-image: url('img/portrait.gif');  height: 100%; width: 100%;
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:10000;
+  position: fixed;"> -->
+
+    </div>
+
+    <!-- <div  id="plr2" class="d-md-block d-none" style="background-image: url('img/example.webm');  height: 100%; width: 100%;
      background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index:10000;
   position: fixed;">
 
-    </div>
+    </div> -->
 
-    <div  id="plr2" class="d-md-block d-none" style="background-image: url('img/landscape.gif');  height: 100%; width: 100%;
-     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index:10000;
-  position: fixed;">
-
-    </div>
+    
     <!-- <div id="preloader">
     </div> -->
 
@@ -442,8 +466,7 @@
                 <div class="col-lg-5 valign">
                     <div class="full-width">
                         <p class="wow fadeInUp txt" >
-                            Trinity gaming is a talent management agency which is working towards making Gaming a viable career option for upcoming Talent. We bridge the gap between Talent & Brand and help creators monetize their content. From content health to GFX/VFX we've got you covered.
-                        </p>
+                            Trinity Gaming India is a leading gaming content & marketing company. The main objective of Trinity Gaming is to assist aspiring gaming content creators in monetizing their content through mentorship and brand integrations, while it caters to platforms and publishers by providing them with the right means to reach and retain their target audience. </p>
                         <a target="_blank" href="about.html" class="simple-btn custom-font mt-20 wow" data-splitting><span>Know More</span></a>
                     </div>
                 </div>
